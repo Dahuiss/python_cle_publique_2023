@@ -1,3 +1,3 @@
 import hello_component
-print("version: " + hello_component.getVersion())
-print("message du composant: " + hello_component.greet())
+print(f"version: {hello_component.getVersion()}")
+print(f"message du composant: {hello_component.greet()}")
